@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class rearrangeArrayElementsBySign{
     public int[] rearrangeArray(int[] nums) {
         int N = nums.length;
         int[] a = new int[N];
@@ -46,7 +46,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        rearrangeArrayElementsBySign sol = new rearrangeArrayElementsBySign();
         int[] nums = {3, 1, -2, -5, 2, -4};
         int[] result = sol.rearrangeArray(nums);
 
